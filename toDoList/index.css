@@ -1,0 +1,46 @@
+body {
+    letter-spacing: 1px;
+
+}
+
+.mainContainer {
+    /*max-width: 1500px;*/
+    width: 90%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+    margin: 40px auto;
+    padding: 40px;
+    overflow: hidden;
+    background: white;
+    color: black;
+    border: 10px solid deepskyblue;
+}
+
+.pageBanner {
+    background: skyblue;
+    border: 5px solid white;
+    padding: 10px;
+
+}
+
+.pageBanner .title, p{
+    display: flex;
+    justify-content: center;
+}
+
+.pageBanner input {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+}
+
+.taskList li {
+    border-left: 5px solid white;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
